@@ -1,17 +1,15 @@
-.footer{
-  background-color: #232F38;
-  opacity: 0.6;
-  padding: 31px 0;
+.header-top{
+  margin-bottom: 130px;
+  padding-top: 25px;
 }
 
-.footer__box{
+.header-top__box{
   display: flex;
   align-items: center;
-  vertical-align: middle;
   justify-content: space-between;
 }
 
-.footer__logo{
+.header-top__logo{
   font-family: "Lora" , "Times New Roman" , serif;
   font-style: normal;
   font-weight: normal;
@@ -21,31 +19,28 @@
   color: #FFFFFF;
 }
 
-.footer__list{
+.header-top__list{
   display: flex;
-  align-items: center;
-  vertical-align: middle;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.footer__item{
-  list-style-type: none;
-  margin-right: 20px;
+.header-top__item{
+  margin-right: 40px;
 }
 
-.footer__item:nth-child(4){
+.header-top__item:nth-child(4){
   margin-right: 0;
 }
 
-.footer__link{
+.header-top__link{
   font-family: "Oxygen" , "Verdana" , sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 26px;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
   text-decoration: none;
-  letter-spacing: 1px;
   color: #FFFFFF;
-  opacity: 0.6;
 }

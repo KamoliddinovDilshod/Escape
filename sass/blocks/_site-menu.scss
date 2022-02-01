@@ -1,0 +1,28 @@
+.site-menu{
+  background-color: #ffffff;
+  padding: 22px 0;
+}
+
+.site-menu__list{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content : space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.site-menu__item{
+  list-style: none;
+}
+
+.site-menu__link{
+  font-family: "Lora" , "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #768088;
+}
